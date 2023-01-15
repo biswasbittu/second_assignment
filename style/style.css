@@ -120,7 +120,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     margin-left: 40px;
-    width: 25%;
+    /* width: 25%; */
 }
 
 .description-article {
@@ -242,9 +242,7 @@
 }
 
 /* Element style */
-.facts-element{
-    margin-top: 50px;
-}
+
 .elements {
     width: 200px;
     height: 200px;
@@ -258,6 +256,7 @@
 .facts-element{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
     
 }
  .element h3 {
@@ -334,4 +333,66 @@ padding: 0px 50px;
 }
 button {
     margin: auto;
+}
+
+@media only screen and (max-width:688px) {
+
+
+
+.menu{
+   
+    margin-left: 10px;
+    
+}
+
+.logo{
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.brand{
+    font-size: 30px;
+    
+}
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin-top: 85px;
+    /* width: 50%; */
+
+}
+.container-2 .images{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+
+.section-2-details {
+    margin-top: 130px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: 2p solid blue;
+}
+
+.facts-element{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    margin-top: 50px;
+    
+}
+.companis{
+    display: grid;
+  grid-template-columns: repeat(1,1fr);
+    margin-top: 50px;
+    grid-row-gap: 30px;
+    
+}
+.f-description{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+}
+
 }
